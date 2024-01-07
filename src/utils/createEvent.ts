@@ -12,7 +12,6 @@ export default function createEvent<T extends EventKeys>(
     run,
   };
 
-  //   if (typeof eventConfig !== "string") return { ...event, ...eventConfig };
-
   return event;
 }
+
